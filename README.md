@@ -1,13 +1,13 @@
 # alx-maze_project
-This project is the default project 'Maze project' for the 'Research &amp; Project approval (Part 1)' project in the ALX Software Engineering program.
+This project is the default project 'Maze project' for the portfolio project in the ALX Software Engineering program. The Maze is a 3D Maze game that uses ray casting to render a 2D map into a 3D navigable world!
 
 # **Maze project**
 
 ## Background Context
 
-The goal of this project is to create a game in 3D using raycasting !
+The goal of this project is to create a game in 3D using raycasting and SDL2 Libraries!
 
-## Tasks
+## TASKS
 
 0. Walls !
 
@@ -96,3 +96,26 @@ The goal of this project is to create a game in 3D using raycasting !
 14. Extra option
 
     Shadows, special lightning, etc… get creative!
+
+## INSTALLATION
+
+    git clone https://github.com/Haymi19/alx_maze_project.git
+
+## COMPILATION
+
+        $ gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm -o maze `sdl2-config --cflags` `sdl2-config --libs`;
+
+## USAGE
+
+   - Execute ./maze or type make run
+   - Use up and down arrow keys to move forward and backward (keys w and s serve the same function)
+   - Use right and left arrow keys to turn the camera arround (keys d and a serve the same function)
+
+## DEMO
+
+
+## AUTHOR
+
+    Haimanot Eshete
+
+    
